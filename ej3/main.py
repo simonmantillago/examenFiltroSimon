@@ -1,10 +1,21 @@
+"""Elabore un programa en Python que permita registrar los productos de una
+Tienda de viveres. La información se debe almacenar en un archivo JSON. La
+Información de los productos es la siguiente (20ptos):
+
+id
+nombre
+valorUnitario
+stockmin
+stockmax
+valorUnitario"""
+
 import modules.corefiles as cf
 import modules.menu as menu
-infoUser= {
-   "users" : {}
+infoProducts= {
+   "products" : {}
 }
 def main():  
-   cf.checkFile('users.json',infoUser)
+   cf.checkFile('products.json',infoProducts)
    menu.main_menu()
     
 

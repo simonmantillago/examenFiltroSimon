@@ -1,0 +1,18 @@
+{
+    "products": {
+        "aa": {
+            "id": "aa",
+            "nombres": "aa",
+            "valorUnitario": 11.0,
+            "stockMin": 11,
+            "stockMax": 11
+        },
+        "22": {
+            "id": "22",
+            "nombre": "22",
+            "valorUnitario": 22.0,
+            "stockMin": 222,
+            "stockMax": 22
+        }
+    }
+}
