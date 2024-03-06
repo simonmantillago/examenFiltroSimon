@@ -1,0 +1,34 @@
+{
+    "empleados": {
+        "111": {
+            "id": "111",
+            "nombre": "simon",
+            "cargo": "programador",
+            "salario": 3000000.0
+        }
+    },
+    "colillas": {
+        "000": {
+            "id": "111",
+            "mesPagado": "MARZO",
+            "fechaPago": "2024-03-06",
+            "diasTrabajados": 30.0,
+            "sueldoBase": 3000000.0,
+            "pagoHorasExtra": 110000.0,
+            "cuotaPrestamo": 0,
+            "descuentoxCafeteria": 0,
+            "totalAPagar": 3110000.0
+        },
+        "001": {
+            "id": "111",
+            "mesPagado": "ABRIL",
+            "fechaPago": "2024-03-06",
+            "diasTrabajados": 20.0,
+            "sueldoBase": 3000000.0,
+            "pagoHorasExtra": 55000.0,
+            "cuotaPrestamo": 0,
+            "descuentoxCafeteria": 100000.0,
+            "totalAPagar": 1955000.0
+        }
+    }
+}
